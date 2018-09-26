@@ -1,0 +1,11 @@
+/home/wojtek/Dokumenty/zadanie/bin/Debug/netcoreapp2.1/zadanie.deps.json
+/home/wojtek/Dokumenty/zadanie/bin/Debug/netcoreapp2.1/zadanie.runtimeconfig.json
+/home/wojtek/Dokumenty/zadanie/bin/Debug/netcoreapp2.1/zadanie.runtimeconfig.dev.json
+/home/wojtek/Dokumenty/zadanie/bin/Debug/netcoreapp2.1/zadanie.dll
+/home/wojtek/Dokumenty/zadanie/bin/Debug/netcoreapp2.1/zadanie.pdb
+/home/wojtek/Dokumenty/zadanie/obj/Debug/netcoreapp2.1/zadanie.csprojAssemblyReference.cache
+/home/wojtek/Dokumenty/zadanie/obj/Debug/netcoreapp2.1/zadanie.csproj.CoreCompileInputs.cache
+/home/wojtek/Dokumenty/zadanie/obj/Debug/netcoreapp2.1/zadanie.AssemblyInfoInputs.cache
+/home/wojtek/Dokumenty/zadanie/obj/Debug/netcoreapp2.1/zadanie.AssemblyInfo.cs
+/home/wojtek/Dokumenty/zadanie/obj/Debug/netcoreapp2.1/zadanie.dll
+/home/wojtek/Dokumenty/zadanie/obj/Debug/netcoreapp2.1/zadanie.pdb
