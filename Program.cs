@@ -39,7 +39,7 @@ namespace zadanie
             try
             {
                 //Tutaj nazwa pliku z którego pobieramy dane
-                using (StreamReader sr = new StreamReader("slo1ocen.in"))
+                using (StreamReader sr = new StreamReader("slo5.in"))
                 {
                     string line;//wiersz z pliku
                     int line_nr = 1;//nr wiersza 
