@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/wojtek/Pulpit/zadanie/zadanie.csproj",
+      "projectUniqueName": "/home/wojtek/Pulpit/zadanieRekrutacyjne/zadanieRekrutacyjne/zadanie.csproj",
       "projectName": "zadanie",
-      "projectPath": "/home/wojtek/Pulpit/zadanie/zadanie.csproj",
+      "projectPath": "/home/wojtek/Pulpit/zadanieRekrutacyjne/zadanieRekrutacyjne/zadanie.csproj",
       "packagesPath": "/home/wojtek/.nuget/packages/",
-      "outputPath": "/home/wojtek/Pulpit/zadanie/obj/",
+      "outputPath": "/home/wojtek/Pulpit/zadanieRekrutacyjne/zadanieRekrutacyjne/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"

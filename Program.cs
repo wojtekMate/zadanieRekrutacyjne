@@ -38,8 +38,10 @@ namespace zadanie
             //wczytanie danych z pliku
             try
             {
+                string nazwa="";
+                nazwa=Console.ReadLine();
                 //Tutaj nazwa pliku z którego pobieramy dane
-                using (StreamReader sr = new StreamReader("slo5.in"))
+                using (StreamReader sr = new StreamReader(nazwa))
                 {
                     string line;//wiersz z pliku
                     int line_nr = 1;//nr wiersza 

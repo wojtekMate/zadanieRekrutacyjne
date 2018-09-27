@@ -20,3 +20,14 @@
 /home/wojtek/Pulpit/zadanie/obj/Debug/netcoreapp2.1/zadanie.AssemblyInfo.cs
 /home/wojtek/Pulpit/zadanie/obj/Debug/netcoreapp2.1/zadanie.dll
 /home/wojtek/Pulpit/zadanie/obj/Debug/netcoreapp2.1/zadanie.pdb
+/home/wojtek/Pulpit/zadanieRekrutacyjne/zadanieRekrutacyjne/bin/Debug/netcoreapp2.1/zadanie.deps.json
+/home/wojtek/Pulpit/zadanieRekrutacyjne/zadanieRekrutacyjne/bin/Debug/netcoreapp2.1/zadanie.runtimeconfig.json
+/home/wojtek/Pulpit/zadanieRekrutacyjne/zadanieRekrutacyjne/bin/Debug/netcoreapp2.1/zadanie.runtimeconfig.dev.json
+/home/wojtek/Pulpit/zadanieRekrutacyjne/zadanieRekrutacyjne/bin/Debug/netcoreapp2.1/zadanie.dll
+/home/wojtek/Pulpit/zadanieRekrutacyjne/zadanieRekrutacyjne/bin/Debug/netcoreapp2.1/zadanie.pdb
+/home/wojtek/Pulpit/zadanieRekrutacyjne/zadanieRekrutacyjne/obj/Debug/netcoreapp2.1/zadanie.csprojAssemblyReference.cache
+/home/wojtek/Pulpit/zadanieRekrutacyjne/zadanieRekrutacyjne/obj/Debug/netcoreapp2.1/zadanie.csproj.CoreCompileInputs.cache
+/home/wojtek/Pulpit/zadanieRekrutacyjne/zadanieRekrutacyjne/obj/Debug/netcoreapp2.1/zadanie.AssemblyInfoInputs.cache
+/home/wojtek/Pulpit/zadanieRekrutacyjne/zadanieRekrutacyjne/obj/Debug/netcoreapp2.1/zadanie.AssemblyInfo.cs
+/home/wojtek/Pulpit/zadanieRekrutacyjne/zadanieRekrutacyjne/obj/Debug/netcoreapp2.1/zadanie.dll
+/home/wojtek/Pulpit/zadanieRekrutacyjne/zadanieRekrutacyjne/obj/Debug/netcoreapp2.1/zadanie.pdb
