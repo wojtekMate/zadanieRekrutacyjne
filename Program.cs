@@ -33,61 +33,46 @@ namespace zadanie
 
         static void Main(string[] args)
         {
-
-
-            //wczytanie danych z pliku
+            //wczytanie danych 
+            List <string> lines = new List<string>();
+            string line=null;
             try
             {
-                string nazwa="";
-                nazwa=Console.ReadLine();
-                //Tutaj nazwa pliku z którego pobieramy dane
-                using (StreamReader sr = new StreamReader(nazwa))
+                while ((line = System.Console.In.ReadLine()) != null)  //  linia po linii
                 {
-                    string line;//wiersz z pliku
-                    int line_nr = 1;//nr wiersza 
-                    int liczba_sloni = 0;
-                    //wczytywanie linie po liniu do końca pliku
-                    while ((line = sr.ReadLine()) != null)
-                    {
-                        //Console.WriteLine(line);
-                        string[] tab = line.Split(' '); // podzielenie wiersza wdedług spacji
-                        int value;//przekonwertowana wartość stringa na int
-                        for (int i = 0; i < tab.Length; i++) //wczytywanie danych do poszczególnych list
-                        {
-                            if (Int32.TryParse(tab[i], out value))
-                            {
-                                if (line_nr == 1)
-                                {
-                                    liczba_sloni = value; //pierwszy wiersz - liczba słoni
-                                }
-                                
-                                if (line_nr == 2)
-                                {
-                                    Weight.Add(value); //drugi wiersz - wagi słoni
-                                }
-                                else if (line_nr == 3)
-                                {
-                                    Ai.Add(value); // trzeci wiersz - ustawienie początkowe słoni
-                                }
-                                else if (line_nr == 4)
-                                {
-                                    Bi.Add(value); // czwarty wiersz - ustawienie docelowe słoni
-                                }
-                            }
-                        }
-                        line_nr++;
-
-                    }
+                    lines.Add(line);
                 }
-            }
-
-            catch (Exception e)
+            } 
+            catch (System.ArgumentNullException) 
+            { 
+                System.Console.Error.WriteLine("No number was entered!");
+            } 
+            catch (System.FormatException) 
             {
-                // coś poszło nie tak
-                Console.WriteLine("Nie można odczytać pliku:");
-                Console.WriteLine(e.Message);
+                System.Console.Error.WriteLine("The specified value is not a valid number!");
+            }    
+            catch (System.OverflowException) 
+            {
+                System.Console.Error.WriteLine("The specified number is too big!");
             }
 
+            string[] tab0 = lines[0].Split(" ");
+            string[] tab1 = lines[1].Split(" ");
+            string[] tab2 = lines[2].Split(" ");
+            string[] tab3 = lines[3].Split(" ");
+            
+            foreach(var temp in tab1)
+            {
+                Weight.Add(int.Parse(temp));
+            }
+            foreach(var temp in tab2)
+            {
+                Ai.Add(int.Parse(temp));
+            }
+            foreach(var temp in tab3)
+            {
+                Bi.Add(int.Parse(temp));
+            }
 
 
             //Rozkład na cykle proste
@@ -145,7 +130,7 @@ namespace zadanie
                 E = E + Emin; // Energia potrzebna do przestawienia słoni
             }
             Console.WriteLine(E);
-            Console.ReadKey();
+           // Console.ReadKey();
         }
     }
 }
